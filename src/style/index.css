@@ -7,6 +7,8 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  width: 95%;
+  margin: 0 auto;
 }
 
 * {
@@ -19,7 +21,14 @@ ul {
   padding: 0;
 }
 
-.header-nav {
+.header-nav-ul {
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-nav-ul li {
+  height: 50px;
+  line-height: 50px;
 }
