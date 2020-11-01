@@ -102,6 +102,9 @@ h3 {
 
 .content-right {
   width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .content-sign-in {
@@ -113,5 +116,36 @@ h3 {
   padding-bottom: 20px;
 }
 
-.content > div {
+.content-sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content-sign-in-input {
+  width: 90%;
+  margin: 0 auto;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+}
+
+.content-sign-in-input:first-child {
+  border-bottom: 0px;
+}
+
+.content-sign-in-input:last-child {
+  border: 0px;
+}
+
+.content-sign-in-checkbox {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.content-sign-in button {
+  background-color: RGB(0, 123, 255);
+  color: white;
 }
