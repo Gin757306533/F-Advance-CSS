@@ -7,7 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -31,4 +31,87 @@ ul {
 .header-nav-ul li {
   height: 50px;
   line-height: 50px;
+}
+
+.content {
+  margin-top: 20px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-left {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.content-about {
+  width: 100%;
+  background-color: #e9ebee;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.content-archives {
+  width: 100%;
+}
+
+.content-middle {
+  width: 60%;
+  height: 800px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.content-article {
+  width: 45%;
+  border: 2px solid lightgray;
+  margin-top: 10px;
+}
+
+.content-article > img {
+  width: 100%;
+  height: 100px;
+}
+
+.content-article-inside {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+.content-article-inside-title {
+  line-height: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content-article-inside a {
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.content-right {
+  width: 20%;
+}
+
+.content-sign-in {
+  width: 100%;
+  background-color: #e9ebee;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.content > div {
 }
